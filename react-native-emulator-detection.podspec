@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "8.0" }
-  s.source       = { :git => "https://www.github.com.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ubdev/react-native-emulator-detection.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm}"
 
